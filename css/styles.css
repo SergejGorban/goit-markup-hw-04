@@ -190,6 +190,23 @@ body {
     margin-right: 30px;
 }
 
+.advantages-container {
+    width: 270px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.advantages-icon {
+    width: 70px;
+    height: 70px;
+}
+
+
 .advantages-item-title {
     font-weight: 700;
     font-size: 14px;
@@ -314,6 +331,17 @@ body {
 .team-social-link:hover {
     background-color: var(--accent-color);
     color: var(--btn-color);
+}
+
+/* -----------------CLIENTS------------- */
+
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
 }
 
 /*-----------------FOOTER---------------*/
