@@ -137,6 +137,10 @@ body {
         url("../images/baner.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: inherit;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
     padding: 200px 0;
 }
 
@@ -228,8 +232,6 @@ body {
 .practice {
     padding-top: 0;
 }
-
-
 
 .practice-title {
     font-weight: 700;
@@ -351,6 +353,7 @@ body {
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
+    border-radius: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -426,6 +429,7 @@ body {
 
 .footer-container {
     display: flex;
+    align-items: baseline;
 }
 
 .footer-social-list {
@@ -466,7 +470,6 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--btn-color);
-    padding-top: 12px;
 }
 
 /*-------------------PORTFOLIO-----------------*/
@@ -545,7 +548,11 @@ body {
     border-bottom: 1px solid #EEEEEE;
 }
 
-.services-container:hover,
-.services-container:focus {
+.services-link {
+    display: block;
+}
+
+.services-link:hover,
+.services-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
