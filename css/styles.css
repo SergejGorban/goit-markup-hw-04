@@ -89,6 +89,25 @@ body {
     color: var(--title-color);
 }
 
+.header-nav-item {
+    position: relative;
+}
+
+.header-nav-link {
+    position: relative;
+}
+
+.header-nav-link.line::after {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: var(--accent-color);
+    border-radius: 2px;
+    bottom: 0;
+}
+
 .header-nav-link:hover,
 .header-nav-link:focus {
     color: var(--accent-color);
