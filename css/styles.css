@@ -137,7 +137,7 @@ body {
         url("../images/baner.jpg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: inherit;
+    background-size: cover;
     max-width: 1600px;
     margin-right: auto;
     margin-left: auto;
